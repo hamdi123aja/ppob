@@ -1,0 +1,147 @@
+/* assets/css/style.css */
+
+/* Tambahan style custom di luar Bootstrap */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f6fa;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navbar */
+.navbar-brand {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* Card */
+.card {
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Table */
+.table th, .table td {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.table th {
+  background-color: #0d6efd;
+  color: #fff;
+}
+
+/* Button kecil */
+.btn-sm {
+  padding: 4px 10px;
+}
+
+.badge {
+  font-size: 0.9em;
+}
+
+/* Layout wrapper biar footer tidak nutupin konten */
+.wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1;
+  padding: 20px;
+  padding-bottom: 80px; /* kasih jarak biar ga ketutupan footer */
+  background: #f5f6fa;
+}
+
+/* Header halaman */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header h2 {
+  margin: 0;
+  color: #333;
+}
+
+/* Content box */
+.content-wrapper {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+  background: #0d6efd;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin-top: auto; /* biar selalu di bawah */
+}
+.dataTables_wrapper .dataTables_filter {
+    float: right;
+    text-align: right;
+}
+
+.dataTables_wrapper .dataTables_length {
+    float: left;
+}
+
+.dataTables_wrapper .dataTables_info {
+    padding-top: 0.5rem;
+}
+
+.dataTables_wrapper .dataTables_paginate {
+    float: right;
+    margin-top: 0.5rem;
+}
+/* Dashboard Card Layout */
+.card-body i {
+    opacity: 0.9;
+}
+
+.card-body h6 {
+    font-size: 1rem;
+    margin-bottom: 0.4rem;
+}
+
+.card-body h3 {
+    font-size: 1.8rem;
+}
+
+/* Rapiin tabel di dashboard */
+.table {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table thead th {
+    background-color: #343a40 !important;
+    color: #fff !important;
+}
+
+.table tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+/* Center footer */
+footer {
+    background: #0d6efd;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,25 @@
+{
+    "name": "ppob/app",
+    "description": "Aplikasi Pembayaran Listrik Pasca Bayar PPOB",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "fpdf/fpdf": "^1.84",
+        "phpoffice/phpspreadsheet": "^1.29",
+        "phpoffice/phpword": "^1.2",
+        "dompdf/dompdf": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Team PPOB",
+            "email": "admin@ppob.local"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
